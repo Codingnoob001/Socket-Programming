@@ -10,7 +10,7 @@ import socket
 # i define the program constants here, for this project, I am using  a host of 127.0.0.1 and port of 6789
 HOST = '127.0.0.1'
 PORT = 6789
-FILE_REQUEST = "HelloWorld.html"
+FILE_REQUEST = "../Html/HelloWorld.html"
 YOUR_REQ = "Your request is "
 
 """
