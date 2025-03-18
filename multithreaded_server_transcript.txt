@@ -1,0 +1,289 @@
+Script started on Mon Mar 17 23:27:18 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004hexitcurl http://127.0.0.1:6789/HelloWorld.html & \
+curl http://127.0.0.1:6789/Science.edu & \[K
+curl http://127.0.0.1:6789/file.txt & \[K
+curl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48C[43C   [1B[K[1B[K[1B[K[3A[90C & \[1Bcurl http://127.0.0.1:6789/Science.edu & \[K[1Bcurl http://127.0.0.1:6789/file.txt & \[K[1Bcurl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48C[34C[P[10C  [1B[67Dnonexistent.html &[1B[18DHelloWold.html &[1B[16Dn[2Cexistent.html &
+[K[K[A[A[A[A[48C[4B[A[A[A[A[48Cpython3 MultiThreadedHttp.py               [1B[K[1B[K[1B[K[1B[K[4A[76C[28Dscript -a multithreaded_transcript.txt[38Dpython3 MultiThreadedHttp.py          [10D[?2004l[1B[MAIN] Script execution started
+[SERVER] Starting server initialization...
+[INIT] Creating server socket...
+[INIT] Socket bound to 127.0.0.1:6789
+[LISTEN] Multithreaded Server started on http://127.0.0.1:6789
+[LISTEN] Server is now listening for connections (max 10 in queue)
+[ACCEPT] Entering connection acceptance loop
+[ACCEPT] Waiting for client connection...
+[ACCEPT] New connection from ('127.0.0.1', 57462)
+[THREAD] Starting new client thread
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-1 (handle_request)
+[ACCEPT] Waiting for client connection...
+[HANDLER] Received request:
+GET /Hello1World.html HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[EXTRACT] Successfully extracted: 'Hello1World.html'
+[HANDLER] Extracted requested file: 'Hello1World.html'
+[RESPONSE] Preparing response for file: 'Hello1World.html'
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Client connection closed
+[ACCEPT] New connection from ('127.0.0.1', 57463)
+[THREAD] Starting new client thread
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-2 (handle_request)
+[HANDLER] Received request:
+GET /file.txt HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[ACCEPT] Waiting for client connection...
+[EXTRACT] Extracting file from request...
+[ACCEPT] New connection from ('127.0.0.1', 57464)
+[THREAD] Starting new client thread
+[EXTRACT] Successfully extracted: 'file.txt'
+[HANDLER] Starting to handle request from client...
+[HANDLER] Extracted requested file: 'file.txt'
+[THREAD] Thread started: Thread-3 (handle_request)
+[RESPONSE] Preparing response for file: 'file.txt'
+[ACCEPT] Waiting for client connection...
+[HANDLER] Received request:
+GET /Science.edu HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[ACCEPT] New connection from ('127.0.0.1', 57465)
+[THREAD] Starting new client thread
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[EXTRACT] Extracting file from request...
+[EXTRACT] Successfully extracted: 'Science.edu'
+[SEND] Response sent (82 bytes)
+[THREAD] Thread started: Thread-4 (handle_request)
+[ACCEPT] Waiting for client connection...
+[HANDLER] Response sent to client
+[HANDLER] Starting to handle request from client...
+[HANDLER] Extracted requested file: 'Science.edu'
+[HANDLER] Client connection closed
+[HANDLER] Received request:
+GET /Song.mp3 HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[RESPONSE] Preparing response for file: 'Science.edu'
+[EXTRACT] Extracting file from request...
+[EXTRACT] Successfully extracted: 'Song.mp3'
+[HANDLER] Extracted requested file: 'Song.mp3'
+[RESPONSE] Preparing response for file: 'Song.mp3'
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Client connection closed
+[HANDLER] Client connection closed
+[ACCEPT] New connection from ('127.0.0.1', 57466)
+[THREAD] Starting new client thread
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-5 (handle_request)
+[ACCEPT] Waiting for client connection...
+[HANDLER] Received request:
+GET /HelloWorld.html HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[ACCEPT] New connection from ('127.0.0.1', 57467)
+[EXTRACT] Successfully extracted: 'HelloWorld.html'
+[THREAD] Starting new client thread
+[HANDLER] Extracted requested file: 'HelloWorld.html'
+[HANDLER] Starting to handle request from client...
+[RESPONSE] Preparing response for file: 'HelloWorld.html'
+[THREAD] Thread started: Thread-6 (handle_request)
+[HANDLER] Received request:
+GET /Song.mp3 HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[RESPONSE] File exists, reading contents...
+[EXTRACT] Successfully extracted: 'Song.mp3'
+[HANDLER] Extracted requested file: 'Song.mp3'
+[RESPONSE] Preparing response for file: 'Song.mp3'
+[ACCEPT] Waiting for client connection...
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[ACCEPT] New connection from ('127.0.0.1', 57468)
+[THREAD] Starting new client thread
+[SEND] Response sent (82 bytes)
+[HANDLER] Starting to handle request from client...
+[HANDLER] Response sent to client
+[RESPONSE] Sending 200 OK response
+[HANDLER] Received request:
+GET /Science.edu HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[SEND] Sending response to client
+[THREAD] Thread started: Thread-7 (handle_request)
+[EXTRACT] Extracting file from request...
+[EXTRACT] Successfully extracted: 'Science.edu'
+[HANDLER] Extracted requested file: 'Science.edu'
+[HANDLER] Client connection closed
+[ACCEPT] Waiting for client connection...
+[SEND] Response sent (713 bytes)
+[RESPONSE] Preparing response for file: 'Science.edu'
+[ACCEPT] New connection from ('127.0.0.1', 57469)
+[THREAD] Starting new client thread
+[HANDLER] Response sent to client
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[HANDLER] Starting to handle request from client...
+[HANDLER] Client connection closed
+[THREAD] Thread started: Thread-8 (handle_request)
+[ACCEPT] Waiting for client connection...
+[HANDLER] Received request:
+GET /file.txt HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[SEND] Response sent (82 bytes)
+[EXTRACT] Successfully extracted: 'file.txt'
+[HANDLER] Response sent to client
+[HANDLER] Extracted requested file: 'file.txt'
+[RESPONSE] Preparing response for file: 'file.txt'
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[HANDLER] Client connection closed
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Client connection closed
+[ACCEPT] New connection from ('127.0.0.1', 57470)
+[THREAD] Starting new client thread
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-9 (handle_request)
+[HANDLER] Received request:
+GET /HelloWorld.html HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[ACCEPT] Waiting for client connection...
+[EXTRACT] Extracting file from request...
+[EXTRACT] Successfully extracted: 'HelloWorld.html'
+[HANDLER] Extracted requested file: 'HelloWorld.html'
+[RESPONSE] Preparing response for file: 'HelloWorld.html'
+[RESPONSE] File exists, reading contents...
+[RESPONSE] Sending 200 OK response
+[SEND] Sending response to client
+[SEND] Response sent (713 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Client connection closed
+[ACCEPT] New connection from ('127.0.0.1', 57474)
+[THREAD] Starting new client thread
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-10 (handle_request)
+[HANDLER] Received request:
+GET /HelloWorld.html HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[ACCEPT] Waiting for client connection...
+[EXTRACT] Successfully extracted: 'HelloWorld.html'
+[ACCEPT] New connection from ('127.0.0.1', 57475)
+[THREAD] Starting new client thread
+[HANDLER] Extracted requested file: 'HelloWorld.html'
+[RESPONSE] Preparing response for file: 'HelloWorld.html'
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-11 (handle_request)
+[ACCEPT] Waiting for client connection...
+[RESPONSE] File exists, reading contents...
+[HANDLER] Received request:
+GET /Science.edu HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[ACCEPT] New connection from ('127.0.0.1', 57476)
+[THREAD] Starting new client thread
+[EXTRACT] Successfully extracted: 'Science.edu'
+[HANDLER] Starting to handle request from client...
+[HANDLER] Extracted requested file: 'Science.edu'
+[RESPONSE] Sending 200 OK response
+[HANDLER] Received request:
+GET /file.txt HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[THREAD] Thread started: Thread-12 (handle_request)
+[SEND] Sending response to client
+[RESPONSE] Preparing response for file: 'Science.edu'
+[EXTRACT] Successfully extracted: 'file.txt'
+[SEND] Response sent (713 bytes)
+[RESPONSE] File not found, preparing 404 response
+[ACCEPT] Waiting for client connection...
+[HANDLER] Extracted requested file: 'file.txt'
+[HANDLER] Response sent to client
+[ACCEPT] New connection from ('127.0.0.1', 57477)
+[THREAD] Starting new client thread
+[RESPONSE] Preparing response for file: 'file.txt'
+[HANDLER] Client connection closed
+[SEND] Sending response to client
+[HANDLER] Starting to handle request from client...
+[THREAD] Thread started: Thread-13 (handle_request)
+[RESPONSE] File not found, preparing 404 response
+[HANDLER] Received request:
+GET /Song.mp3 HTTP/1.1
+Host: 127.0.0.1:6789
+User-Agent: curl/8.7.1
+Accept: */*
+
+
+[EXTRACT] Extracting file from request...
+[SEND] Sending response to client
+[ACCEPT] Waiting for client connection...
+[SEND] Response sent (82 bytes)
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Response sent to client
+[EXTRACT] Successfully extracted: 'Song.mp3'
+[HANDLER] Client connection closed
+[HANDLER] Extracted requested file: 'Song.mp3'
+[HANDLER] Client connection closed
+[RESPONSE] Preparing response for file: 'Song.mp3'
+[RESPONSE] File not found, preparing 404 response
+[SEND] Sending response to client
+[SEND] Response sent (82 bytes)
+[HANDLER] Response sent to client
+[HANDLER] Client connection closed

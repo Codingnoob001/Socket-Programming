@@ -1,0 +1,127 @@
+Script started on Mon Mar 17 23:27:56 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004hexitcurl http://127.0.0.1:6789/HelloWorld.html & \
+curl http://127.0.0.1:6789/Science.edu & \[K
+curl http://127.0.0.1:6789/file.txt & \[K
+curl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C1oWorld.html & \[15D[P[15C [16D[1C1World.html & \[14D[?2004l[3B
+[1] 56738
+[2] 56739
+[3] 56740
+[4] 56741
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004h<h1>404 Error: File Not Found</h1>
+[1]    done       curl http://127.0.0.1:6789/Hello1World.html
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K<h1>404 Error: File Not Found</h1><h1>404 Error: File Not Found</h1><h1>404 Error: File Not Found</h1>
+[3]  - done       curl http://127.0.0.1:6789/file.txt
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[2]  - done       curl http://127.0.0.1:6789/Science.edu
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[4]  + done       curl http://127.0.0.1:6789/Song.mp3
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [Kcurl http://127.0.0.1:6789/Hello1World.html & \
+curl http://127.0.0.1:6789/Science.edu & \[K
+curl http://127.0.0.1:6789/file.txt & \[K
+curl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48Cexit                                           [1B[K[1B[K[1B[K[3A[52Ccurl http://127.0.0.1:6789/HelloWorld.html & \[1Bcurl http://127.0.0.1:6789/Science.edu & \[K[1Bcurl http://127.0.0.1:6789/file.txt & \[K[1Bcurl http://127.0.0.1:6789/Song.mp3 &[K[?2004l
+[1] 56745
+[2] 56746
+[3] 56747
+[4] 56748
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004h<h1>404 Error: File Not Found</h1><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h1 { animation: fadeIn 2s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <h1 onclick="alert('Hello, Worldddd! ')">Hello, Worldddd!</h1>
+</body>
+</html>
+
+[4]  + done       curl http://127.0.0.1:6789/Song.mp3
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K<h1>404 Error: File Not Found</h1><h1>404 Error: File Not Found</h1>
+[1]    done       curl http://127.0.0.1:6789/HelloWorld.html
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[2]  - done       curl http://127.0.0.1:6789/Science.edu
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[3]  + done       curl http://127.0.0.1:6789/file.txt
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [Kcurl http://127.0.0.1:6789/HelloWorld.html & \
+curl http://127.0.0.1:6789/Science.edu & \[K
+curl http://127.0.0.1:6789/file.txt & \[K
+curl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48C[32C1World.html & \[3B[58D[A[A[A[48Cexit                                           [1B[K[1B[K[1B[K[3A[52Ccurl http://127.0.0.1:6789/HelloWorld.html & \[1Bcurl http://127.0.0.1:6789/Science.edu & \[K[1Bcurl http://127.0.0.1:6789/file.txt & \[K[1Bcurl http://127.0.0.1:6789/Song.mp3 &[K[A[A[A[48C[43C   [1B[K[1B[K[1B[K[3A[90C & \[1Bcurl http://127.0.0.1:6789/Science.edu & \[K[1Bcurl http://127.0.0.1:6789/file.txt & \[K[1Bcurl http://127.0.0.1:6789/Song.mp3 &[K[A[1B[3A[91C   [1B[K[1B[K[1B[K[3A[90C[?2004l[1B<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h1 { animation: fadeIn 2s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <h1 onclick="alert('Hello, Worldddd! ')">Hello, Worldddd!</h1>
+</body>
+</html>
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004hcurl http://127.0.0.1:6789/HelloWorld.html & \
+curl http://127.0.0.1:6789/Science.edu & \[K
+curl http://127.0.0.1:6789/file.txt & \[K
+curl http://127.0.0.1:6789/Song.mp3 &[K[?2004l
+[1] 56759
+[2] 56760
+[3] 56761
+[4] 56762
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K[?2004h<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h1 { animation: fadeIn 2s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <h1 onclick="alert('Hello, Worldddd! ')">Hello, Worldddd!</h1>
+</body>
+</html>
+<h1>404 Error: File Not Found</h1><h1>404 Error: File Not Found</h1>
+[1]    done       curl http://127.0.0.1:6789/HelloWorld.html
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K<h1>404 Error: File Not Found</h1>
+[2]    done       curl http://127.0.0.1:6789/Science.edu
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[3]  - done       curl http://127.0.0.1:6789/file.txt
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [K
+[4]  + done       curl http://127.0.0.1:6789/Song.mp3
+[0m[27m[24m[Jvictorakolo@Victors-MacBook-Pro pythonProject % [Keexit[?2004l
+
+Script done on Mon Mar 17 23:29:13 2025
